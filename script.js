@@ -38,8 +38,8 @@ class Calculadora {
             case '*':
                 calculo = anterior * actual;
                 break;
-            case '%':
-                calculo = anterior % actual;
+            case '/':
+                calculo = anterior / actual;
                 break;
             default:
                 return;
